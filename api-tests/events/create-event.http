@@ -1,0 +1,10 @@
+POST http://localhost:8080/events
+content-type: application/JSON
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQGV4YW1wbGUuY29tIiwiZXhwIjoxNzA0MzI5MTU4LCJ1c2VySWQiOjJ9.QgfCVYoC0H2H-CK7hYEvY0wKjxiergpiFGuM1K6W1dE
+
+{
+    "name": "Test event",
+    "description": "Lorem ipsum doplur",
+    "location": "New Jersey",
+    "dateTime": "2025-01-01T15:30:00.000Z"
+}
